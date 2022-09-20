@@ -254,7 +254,6 @@ flex-direction: column;
 
 .section-heading1{
     width: auto;
-    /* padding: 20px 10px 10px; */
     margin: 20px auto;
     font-weight: 400;
     display: flex;
