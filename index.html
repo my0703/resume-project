@@ -7,45 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manish's Resume</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
 </head>
 
 <body>
 
-    <header id="body-header">
 
-        <input type="checkbox" id="check">
-        <label for="check">
-            <span><img id="hamburger" src="image/bars-solid.svg" ></span>
-        </label>
-        <ul class="list text-center">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#About">About</a>
-            </li>
-            <li>
-                <a href="#Skill">Skill</a>
-            </li>
-            <li>
-                <a href="#Experience">Experience</a>
-            </li>
-            <li>
-                <a href="#Education">Education</a>
-            </li>
-            <li>
-                <a href="#Portfolio">Portfolio</a>
-            </li>
-            <li>
-                <a href="#Contact">Contact</a>
-            </li>
-        </ul>
-        <div class="text-center">
-            <h1 id="my-name">Manish Kumar Yadav</h1>
+
+    <header id="body-header" class="header1">
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul class="list text-center">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#About">About</a>
+                            </li>
+                            <li>
+                                <a href="#Skill">Skill</a>
+                            </li>
+                            <li>
+                                <a href="#Experience">Experience</a>
+                            </li>
+                            <li>
+                                <a href="#Education">Education</a>
+                            </li>
+                            <li>
+                                <a href="#Portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#Contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div>
+
+
+        <div id="name-id" class="text-center">
+            <h1 id="my-name" class="animate__animated animate__zoomInDown">Manish Kumar Yadav</h1>
+        </div>
+
+        <div id="social">
             <ul class="social-list text-center">
                 <li>
                     <a href="https://www.linkedin.com/in/manish-kumar-yadav-602124201/" target="_blank"><img
@@ -72,7 +89,7 @@
 
     </header>
 
-    <main>
+    <main id="main1">
 
 
         <section id="about">
@@ -181,7 +198,7 @@
                     <p class="cse">With the specialization in <b>Computer Science And Engineering</b>
                     </p>
                     <h5 class="year">2018-2022</h5>
-                    
+
                 </div>
                 <div class="timeline-box">
                     <h3 class="Course">Intermediate</h3>
@@ -211,7 +228,8 @@
 
             <div class="projects">
                 <div class="project-box">
-                    <img src="https://media.istockphoto.com/photos/shopping-online-concept-shopping-service-on-the-online-web-with-by-picture-id1133980246?k=20&amp;m=1133980246&amp;s=612x612&amp;w=0&amp;h=bwut2YUV7gtnjrv354523xU_9S-TtKQOqGTdiGMsPfs=">
+                    <img
+                        src="https://media.istockphoto.com/photos/shopping-online-concept-shopping-service-on-the-online-web-with-by-picture-id1133980246?k=20&amp;m=1133980246&amp;s=612x612&amp;w=0&amp;h=bwut2YUV7gtnjrv354523xU_9S-TtKQOqGTdiGMsPfs=">
                     <div class="project-details">
                         <p>Write here basic detail of the project</p>
                     </div>
@@ -245,34 +263,35 @@
 
         </section>
 
-         <!-- mod -->
- 
+        <!-- mod -->
+
         <section id="contact">
             <h1 class="section-heading mb75px">
                 <span><img src="image/address-card-regular.svg"></span>
                 <span>CONTACT</span>
             </h1>
 
-    
+
             <div id="form-section">
 
-            <div id="form">
-                <input id="input-name" type="text" placeholder="YOUR NAME" required>
-                <input id="input-mail" type="mail" placeholder="abc@gmail.com" required>
-                <textarea id="textarea" rows="2" cols="10" placeholder="YOUR MESSAGE" required ></textarea>
-                <button id="sb-bn" type="button" >SEND MESSAGE</button>
-            </div>
+                <div id="form">
+                    <input id="input-name" type="text" placeholder="YOUR NAME" required>
+                    <input id="input-mail" type="mail" placeholder="abc@gmail.com" required>
+                    <textarea id="textarea" rows="2" cols="10" placeholder="YOUR MESSAGE" required></textarea>
+                    <button id="sb-bn" type="button">SEND MESSAGE</button>
+                </div>
 
-            <div>
-                <h3>Get in touch</h3>
-                Need to get in touch with me? Either fill out the form or just direct contact with me with my information given below..
-                <h3 class="section-heading1">My Address </br>
-                    <span><img src="image/location-dot-solid.svg">Delhi, India</span>
-                    <span><img src="image/phone-solid.svg">+917905081825</span>
-                    <span><img src="image/envelope-solid.svg">my73797@gmail.com</span>
-                </h3>
-               </div>
-               </div>
+                <div>
+                    <h3>Get in touch</h3>
+                    Need to get in touch with me? Either fill out the form or just direct contact with me with my
+                    information given below..
+                    <h3 class="section-heading1">My Address </br>
+                        <span><img src="image/location-dot-solid.svg">Delhi, India</span>
+                        <span><img src="image/phone-solid.svg">+917905081825</span>
+                        <span><img src="image/envelope-solid.svg">my73797@gmail.com</span>
+                    </h3>
+                </div>
+            </div>
             <div>
 
                 <div>
@@ -293,9 +312,9 @@
                             <a href="https://www.linkedin.com/in/manish-kumar-yadav-602124201/" target="_blank"><img
                                     src="image/twitter.svg" /></a>
                         </li>
-         
+
                     </ul>
-        
+
                 </div>
 
             </div>
